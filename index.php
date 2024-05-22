@@ -1,3 +1,10 @@
+<?php
+
+require 'function/functions.php';
+$blog = query("SELECT * FROM blog");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
